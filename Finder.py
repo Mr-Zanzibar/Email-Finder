@@ -1,7 +1,7 @@
 import requests, json
 
 
-username = input("add username: ")
+username = input("Add username: ")
 url = "https://api.github.com/users/%s/events/public" % username
 
 response = requests.get(url)
